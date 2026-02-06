@@ -50,7 +50,7 @@
     }
 
     .bubu {
-      width: 160px;
+      width: 170px;
       margin: 20px auto;
       display: block;
       animation: popIn 0.4s ease;
@@ -138,7 +138,10 @@
     <h2 id="questionText">So… 🌹</h2>
     <h1>Will you be my Valentine, Monika?</h1>
 
-    <img id="bubuGif" class="bubu" src="https://tenor.com/gMwqa8tZqoL.gif" alt="Bubu Dudu">
+    <!-- Default Kiss GIF -->
+    <img id="bubuGif" class="bubu"
+      src="https://cdn.jumpshare.com/preview/rRpJztTSOY3QDKpPumnwuAJ0GpnlMEhDNCf6tlsojolJI4phQzEMzLLdU4QuV2eATUO4ITmXNZBKoyughHNziEilzYU9ypKIsEdldjywzo4"
+      alt="Bubu Dudu Kiss">
 
     <div class="buttons">
       <button id="yesBtn" onclick="celebrate()">YES 💖</button>
@@ -159,10 +162,10 @@
     ];
 
     const noGifs = [
-      "https://tenor.com/rZOb1FX42Vv.gif",
-      "https://tenor.com/e5nMXfGl5IQ.gif",
-      "https://tenor.com/pu2STbTKfAm.gif",
-      "https://tenor.com/dHLKjF6TaD4.gif"
+      "https://cdn.jumpshare.com/preview/om8b3KTbqPzvTqRVKakY95N7Pz0Pg3PVcOSpHTeGHrk5D3bZo1oL7J2RE5JvvTY60BO_7Ijco2sDI_gPIzAPO4EI9QP9oaHBuVtYoxY-y0k",
+      "https://cdn.jumpshare.com/preview/eWd_og_hj5VxyBlNPSEJkCsGvZ50l6IRgU6cPaSzPq4RKRfvCloSCp1pWR7c1dcn0BO_7Ijco2sDI_gPIzAPO-o_a4yFzBfc0xOAc2KhiMU",
+      "https://cdn.jumpshare.com/preview/qVq2MsyD4SwRrhYbSxUMY8y9IoDWTT5Kn0C4ie1v1OhoJrGrl3mA59NUxlDDiesmrxLVyegYncyhrbdhSPYYT2jTIDOYII0xuislAX8NKRA",
+      "https://cdn.jumpshare.com/preview/l-Edu7z0o9eUOsiCNw3FWha_3_IEcwJVdli8r8psDCGgXctY-xMgZe9hfDPX_UiF5vodG4DKGvWOuHMC7Dpbe_eUf_dG3LLZN5BkzXJ43dE"
     ];
 
     function nextScreen() {
@@ -189,7 +192,8 @@
     function celebrate() {
       document.body.innerHTML = `
         <div style="text-align:center; animation: fadeIn 0.6s ease;">
-          <img src="https://cdn.jumpshare.com/preview/95-hUwm9PEOyYNIK1h4coAN6vFYVrIyzBPodEmk_Zx2mA10NUMsMESbXZjRq5myJYLx-muxw3FK5Cju_4x9BvcXBdXc2RZUWccf67NmFCD0" style="width:200px; margin-bottom:20px;">
+          <img src="https://cdn.jumpshare.com/preview/95-hUwm9PEOyYNIK1h4coAN6vFYVrIyzBPodEmk_Zx2mA10NUMsMESbXZjRq5myJYLx-muxw3FK5Cju_4x9BvcXBdXc2RZUWccf67NmFCD0"
+               style="width:220px; margin-bottom:20px;">
           <h1 style="font-family:Pacifico; font-size:2.6rem;">YAYYYY 💖</h1>
           <p style="font-size:1.2rem;">
             Best decision ever, Monika 😌<br>
